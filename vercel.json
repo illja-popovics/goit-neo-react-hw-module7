@@ -1,0 +1,45 @@
+{
+  "rewrites": [
+    {
+      "source": "/movies/:path*",
+      "destination": "/movies"
+    },
+    {
+      "source": "/movies/:movieId/cast",
+      "destination": "/movies/:movieId"
+    },
+    {
+      "source": "/movies/:movieId/reviews",
+      "destination": "/movies/:movieId"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/old-path",
+      "destination": "/new-path",
+      "permanent": true
+    }
+  ]
+}{
+  "rewrites": [
+    {
+      "source": "/movies/:path*",
+      "destination": "/movies"
+    },
+    {
+      "source": "/movies/:movieId/cast",
+      "destination": "/movies/:movieId"
+    },
+    {
+      "source": "/movies/:movieId/reviews",
+      "destination": "/movies/:movieId"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/old-path",
+      "destination": "/new-path",
+      "permanent": true
+    }
+  ]
+}
